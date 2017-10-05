@@ -1,0 +1,174 @@
+0  Star 0  Fork 0 magnifikajf/1www-szkola-jazdy
+ Code  Issues 0  Pull requests 0  Projects 0 Insights 
+Branch: master Find file Copy path1www-szkola-jazdy/style.css
+5b80c03  18 hours ago
+@magnifikajf magnifikajf finish
+1 contributor
+RawBlameHistory     
+165 lines (138 sloc)  2.7 KB
+/* MAIN STYLES */
+
+html {
+    box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit; 
+}
+
+body {
+    max-width: 1200px; 
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+h2 {
+    color: #689cf2; 
+    padding-left: 20px; 
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5; 
+    padding-left: 20px; 
+}
+
+/* HEADER */
+.main-header {
+    margin-top: 10px;
+    /*position: relative;*/
+    height: 70px; 
+    box-sizing: border-box; 
+    border-bottom: 5px solid #689cf2;   
+}
+
+.right-header-text {
+    background-color: #edeae1;
+    margin-left: 530px;
+    width: 670px;
+    height: 65px;
+    border-radius: 40px 40px 0px 0px;
+    box-sizing: border-box; 
+    padding: 15px;
+}
+
+.left-header-logo {
+    float:left; 
+/*    position: absolute;
+*/    margin-left: 20px;
+    margin-top: 25px; 
+}
+
+/* NAV */
+
+.main-nav {
+   width: 1200px;
+background-color: #b3aaa1;
+    height: 75px; 
+    margin-top: -3px; 
+    border-radius: 0px 0px 30px 30px;  
+    border-top: 5px solid #689cf2;
+    box-sizing: border-box; 
+}
+
+ul {
+    list-style-type: none;
+}
+ 
+ul> li {
+    display: inline-block; 
+    padding: 15px; 
+    margin-right: 20px; 
+}
+
+ul a {
+    text-transform: uppercase; 
+    text-decoration: none; 
+    color: white; 
+    text-shadow: 1px 3px 1px #646568;
+    font-weight: 900; 
+}
+
+/* DEAL PAGE */
+
+.deal-page {
+    width: 1200px;
+    background-color: #edeae1;  
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+}
+
+.top-deal-page-photo {
+    float: left; 
+    height: 250px; 
+}
+
+.left-deal-page-text {
+    width: 640px;   
+    float: left;
+    padding: 15px;
+    padding-right: 20px
+}
+
+.bottom-deal-page {
+    clear: both; 
+    background-color: #edeae1; 
+    height: 100px; 
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+}
+
+.right-car-text {
+    float: left; 
+    padding-top: 15px;
+    padding-right: 130px;
+    padding-left: 20px;
+    /*border-top-left-radius: 30px;*/ 
+}
+.car-images {
+    padding: 20px;
+}
+
+.car {
+    clear: both; 
+    padding-right: 40px; 
+}
+    
+/* CONTENT PAGE */
+.content-page {
+    width: 1200px; 
+    height: 200px; 
+    padding-top: 30px;
+    padding-left: 20px; 
+}
+
+.column {
+    width: 33%;
+    display: inline-block; 
+}
+
+.column p {
+    text-align: left; 
+    margin-right: 20px
+}
+
+footer {
+    background-color: #b3aaa1;
+    color: aliceblue; 
+    border-bottom-left-radius: 25px; 
+    border-bottom-right-radius:  25px; 
+    padding: 2px; 
+    font-size: 11px; 
+    
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    line-height: 0.75; 
+}
+© 2017 Git

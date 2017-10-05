@@ -1,0 +1,31 @@
+body
+{
+background: gray;
+font-family: Verdana;
+font-size: 20px;
+color: white;
+}
+
+h1
+{
+  font-size: 48px;
+  color: green;
+  text-align: center;
+}
+
+/*nieodwiedzony link*/
+a:link
+{
+  color: yellow;
+  text-decoration: none;
+}
+/*odwiedzony link*/
+a:visited
+{
+  color: yellow;
+}
+/*link ponajechaniu*/
+a:hover
+{
+  color: red;
+}
